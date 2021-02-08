@@ -1,4 +1,5 @@
 ---
+#this playbook effects the end nodes.. this stops, removes container and its image. Builds a new image based on new war file and creates a new container on it.
 - hosts: all
   become: true
   tasks:
